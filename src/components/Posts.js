@@ -14,7 +14,7 @@ class Posts extends Component { // here we can achieve the same using functional
         if(nextProps.newPost) {
             this.props.posts.unshift(nextProps.newPost);
         }
-    }
+        }
 
     render() {
         const postItems = this.props.posts.map(post => (
